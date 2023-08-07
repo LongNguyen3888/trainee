@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class baitoantongquat {
+public class baitoan8quanhau {
     private int n;
     private boolean cot[];
     private boolean cc[];
