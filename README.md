@@ -1,1 +1,1 @@
-Some projects i been tried for the past month
+Some projects i have been tried for the past month
