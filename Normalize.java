@@ -28,6 +28,7 @@ public class Normalize {
         String n = sc.nextLine();
         n = n.trim();
         n = n.replaceAll("( )+", "$1");
+        n = n.toLowerCase();
         Normalize nm = new Normalize();
         char[] m = nm.Convert(n);
         System.out.print("Ho va ten: ");
