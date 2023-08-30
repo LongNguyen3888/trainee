@@ -132,14 +132,8 @@ public class Adventure {
     }
 
     public void Continue(char[] ch, int count) {
-        if (ch[count - 1] == 69) {
-            ch[count] = 69;
-        } else if (ch[count - 1] == 87) {
-            ch[count] = 87;
-        } else if (ch[count - 1] == 83) {
-            ch[count] = 83;
-        } else if (ch[count - 1] == 78) {
-            ch[count] = 78;
+        if (ch[count - 1] == 69 || ch[count - 1] == 87 || ch[count - 1] == 83 || ch[count - 1] == 78) {
+            ch[count] = ch[count - 1];
         }
     }
 }
